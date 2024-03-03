@@ -20,5 +20,5 @@ fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
 
     slow?.next = slow?.next?.next
 
-    return result
+    return result?.next
 }
