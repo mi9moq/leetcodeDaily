@@ -1,9 +1,5 @@
 package march
 
-fun main() {
-    customSortString("cba", "abcd")
-}
-
 fun customSortString(order: String, s: String): String {
     val result = StringBuilder()
     val builders = Array(26) { StringBuilder() }
